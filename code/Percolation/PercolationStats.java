@@ -3,9 +3,8 @@ import edu.princeton.cs.algs4.StdRandom;
 import edu.princeton.cs.algs4.StdStats;
 
 public class PercolationStats {
-    int size;
-    double[] rates;
-    final double CONFIDENCE_95 = 1.96;
+    private final double[] rates;
+    private final double CONFIDENCE_95 = 1.96;
     // perform independent trials on an n-by-n grid
     public PercolationStats(int n, int trials)
     {
